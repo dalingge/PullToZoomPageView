@@ -10,6 +10,7 @@
     </style>
 
     <style name="AppTheme_NoTitle" parent="@style/AppTheme">
+        <item name="android:windowTranslucentStatus" tools:targetApi="kitkat">true</item>
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
