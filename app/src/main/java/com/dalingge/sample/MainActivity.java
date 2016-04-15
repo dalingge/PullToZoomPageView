@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public TextHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-            return new TextHolder(View.inflate(MainActivity.this,R.layout.item_main,null));
+            return new TextHolder(View.inflate(MainActivity.this,android.R.layout.simple_expandable_list_item_1,null));
         }
 
         @Override
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
         private TextView mText;
         public TextHolder(View itemView) {
             super(itemView);
-            mText = (TextView) itemView.findViewById(R.id.textView);
+            mText = (TextView) itemView.findViewById(android.R.id.text1);
         }
 
         void bind(){
