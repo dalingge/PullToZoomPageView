@@ -3,4 +3,4 @@
 
 ## Screen Recod
 
-![](https://github.com/dalingge/PullToZoomPageView/screenshots/s.gif)
+![](https://github.com/dalingge/PullToZoomPageView/blob/master/screenshots/s.gif)
